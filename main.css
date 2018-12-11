@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.regform {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    height: 275px;
+    width: 400px;
+    border: 2px solid rgb(53, 131, 177);
+    background-color: rgb(64, 157, 211);
+}
+
+div.registration {
+    width: 375x;
+    height: 55px;
+    padding-left: 25px;
+    line-height: 65px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.55em;
+    border-bottom: 1px solid white;
+}
+
+div.mail,
+div.pass,
+div.confirm_pass,
+div.submmmit {
+    position: absolute;
+    color: white;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.mail {
+    top: 75px;
+}
+
+div.mail input {
+    width: 346px;
+}
+
+div.pass {
+    top: 145px;
+}
+
+div.pass input {
+    width: 157px;
+}
+
+div.confirm_pass {
+    top: 145px;
+    left: 214px;
+}
+
+div.confirm_pass input {
+    width: 157px;
+}
+
+div.submmmit {
+    top: 220px;
+}
+
+input.yellow_button {
+    width: 130px;
+    height: 35px;
+    background-color: rgb(226, 211, 126);
+    border: none;
+}
